@@ -10,8 +10,8 @@ theme:
   name: material
   custom_dir: docs/assets/overrides
   language: en
-  favicon: assets/images/ui/aircoookie/blurple.png
-  logo: assets/images/ui/akemi/001_cheerful.png
+  favicon: ../assets/images/ui/aircoookie/blurple.png
+  logo: ../assets/images/ui/akemi/001_cheerful.png
   icon: 
     repo: fontawesome/brands/github
   features: 
@@ -43,6 +43,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tilde
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/KuqP7NE
